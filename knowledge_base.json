@@ -1,0 +1,23 @@
+[
+    "Aedrian Rimorin Sagap is a software engineer based in Caba, La Union, Philippines. His email is sagapaedrian@gmail.com and his GitHub is github.com/aedriansagap.",
+    "Aedrian graduated Magna Cum Laude with a BS in Computer Science from Don Mariano Marcos Memorial State University in Agoo, La Union in May 2026.",
+    "Aedrian is a PhilNITS IT Passport (IP) Certified Professional.",
+    "Aedrian's programming languages include Python, JavaScript, TypeScript, C, Java, C#, SQL, HTML, and CSS.",
+    "Aedrian's frameworks include React Native, React.js, Node.js, and Flask.",
+    "Aedrian has database experience with PostgreSQL, MariaDB, Supabase, and ChromaDB.",
+    "Aedrian has experience with testing and infrastructure tools including Playwright, k6, Docker, Linux, Git, GitHub, and llama.cpp.",
+    "From May 2025 to July 2025, Aedrian worked as an Information Technology Intern at the Department of Science and Technology (DOST) Regional Office I.",
+    "During his internship at DOST, Aedrian led an internship development team to build E-sumite, a financial reporting system for the Accounting Office.",
+    "At DOST, Aedrian designed a multi-tenant reporting architecture across Regional Office I and its provincial offices, and deployed production-ready code with the ITSM Unit.",
+    "The E-sumite system Aedrian built at DOST was permanently adopted and rebranded as FTRACS (Financial Tracking Reports and Compliance System).",
+    "Aedrian's undergraduate thesis was VisitTrack, a LAN-Based Visitor Monitoring System, which he led and developed.",
+    "For VisitTrack, Aedrian built and containerized a secure visitor monitoring system for the BJMP Agoo District Jail Office using Docker and engineered a low latency LAN-based architecture.",
+    "In VisitTrack, Aedrian implemented end-to-end automated testing via Playwright and used k6 to simulate high-volume traffic for server stress-testing.",
+    "Aedrian developed RECLAIM, a Multi-Platform Lost & Found System, as an academic project where he served as Leader and Developer.",
+    "RECLAIM comprises a React Native mobile application, a responsive web version hosted on Netlify, and a dedicated admin monitoring dashboard hosted on Vercel.",
+    "For RECLAIM, Aedrian configured authentication and secure data access using Supabase and PostgreSQL RLS, and implemented real-time updates, multi-image uploads, and offline caching.",
+    "Aedrian developed a Local AI Chatbot & RAG Pipeline personal project leveraging Flask and llama.cpp for local AI inference.",
+    "Aedrian's Local AI Chatbot integrates ChromaDB to create a data pipeline to generate and store embeddings, implementing Retrieval-Augmented Generation (RAG) to reduce hallucinations.",
+    "Aedrian served as the Club Secretary for the Computer Science Club (CSC) at DMMMSU-SLUC during S.Y. 2024 - 2025.",
+    "In December 2025, Aedrian completed an orientation on the Community Based Monitoring System (CBMS) principles and data-driven governance frameworks sponsored by the Philippine Statistics Authority (PSA)."
+]

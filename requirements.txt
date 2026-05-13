@@ -1,0 +1,4 @@
+flask
+llama_cpp_python
+chromadb
+sentence_transformers

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aedrian AI - Portfolio Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-container">
+        <header class="app-header">
+            <div class="logo">
+                <span class="accent-text">AEDRIAN</span> AI // v1.0
+            </div>
+            <div class="status-indicator">
+                <div class="pulse-dot"></div>
+                <span>SYSTEM ONLINE</span>
+            </div>
+        </header>
+        
+        <main class="chat-container" id="chat-container">
+            <div class="message system-msg">
+                <div class="avatar system-avatar">A</div>
+                <div class="msg-content">
+                    <p>Connection Established. I am Aedrian's AI Assistant. You can ask me about his work experience, projects, or technical skills. How can I assist you today?</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="input-area">
+            <form id="chat-form">
+                <input type="text" id="query-input" placeholder="Ask about Aedrian's experience..." autocomplete="off" required>
+                <button type="submit" id="send-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </footer>
+    </div>
+    <!-- Render Markdown properly -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
