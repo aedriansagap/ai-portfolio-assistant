@@ -2,3 +2,4 @@ flask
 llama_cpp_python
 chromadb
 sentence_transformers
+huggingface_hub

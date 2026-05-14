@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from llama_cpp import Llama
+from huggingface_hub import hf_hub_download
 import chromadb
 from sentence_transformers import SentenceTransformer
 
@@ -7,7 +8,8 @@ app = Flask(__name__)
 
 # Setup Context Global variables
 print("Initializing Aedrian's AI Assistant (Loading Model & ChromaDB)")
-llm = Llama(model_path="/home/aedriansagap/models/gguf/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf", n_ctx=2048)
+model_path = hf_hub_download(repo_id="Qwen/Qwen2.5-1.5B-Instruct-GGUF", filename="qwen2.5-1.5b-instruct-q4_k_m.gguf")
+llm = Llama(model_path=model_path, n_ctx=2048)
 try:
     db = chromadb.PersistentClient(path="./interview_db").get_collection("interview_kb")
 except Exception as e:
@@ -56,4 +58,4 @@ def chat():
 
 if __name__ == '__main__':
     # Threaded False might be necessary for Llama.cpp stability in some environments, but Flask does threading by default.
-    app.run(debug=True, port=5000, threaded=False)
+    app.run(host='0.0.0.0', port=7860, threaded=False)
