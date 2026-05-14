@@ -1,3 +1,12 @@
+---
+title: Interview AI
+emoji: 💬
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # AI Portfolio Assistant 🤖💼
 
 An intelligent, Retrieval-Augmented Generation (RAG) powered portfolio assistant. This application acts as a personal AI representative, capable of answering interview questions, detailing professional experience, and providing insights about the candidate based on a curated knowledge base.
